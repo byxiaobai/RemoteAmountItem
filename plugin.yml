@@ -1,0 +1,12 @@
+name: RemoteAmountItem
+main: pers.remoteamountitem.RemoteAmountItem
+version: 1.0
+commands:
+  remoteitem:
+    description: 减少物品
+    permission: RemoteAmountItem.use
+    permission-message: 你没有权限!
+permissions:
+  RemoteAmountItem.use:
+    description: 使用权限
+    default: OP
